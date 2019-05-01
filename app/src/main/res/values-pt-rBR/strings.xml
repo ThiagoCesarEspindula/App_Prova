@@ -2,8 +2,6 @@
 <resources>
     <string name="app_name">Conversor do Programador</string>
     <string name="decimal_para_binario">Decimal para Binário</string>
-    <string name="hexadecimal">Hexadecimal</string>
-    <string name="binario">Binário</string>
     <string name="confirmar">Confirmar</string>
     <string name="decimal_para_hexadecimal">Decimal para Hexadecimal</string>
     <string name="binario_para_decimal">Binário para Decimal</string>
