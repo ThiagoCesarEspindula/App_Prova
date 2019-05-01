@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">" Programmer Converter"</string>
+    <string name="decimal_para_binario">Decimal to Binary</string>
+    <string name="hexadecimal">Hexadecimal</string>
+    <string name="binario">Binary</string>
+    <string name="confirmar">Confirm</string>
+    <string name="decimal_para_hexadecimal">Decimal to Hexadecimal</string>
+    <string name="binario_para_decimal">Binary to Decimal</string>
+    <string name="binario_para_hexadecimal">Binary to Hexadecimal</string>
+    <string name="hexadecimal_para_decimal">Hexadecimal to Decimal</string>
+    <string name="hexadecimal_para_binario">Hexadecimal to Binary</string>
+    <string name="converter_de">Convert from:</string>
+    <string name="decimal_binario">Decimal -> Binary</string>
+    <string name="digite_um_numero">Type a number</string>
+    <string name="converter">Convert</string>
+    <string name="decimal_hexadecimal">Decimal -> Hexadecimal</string>
+    <string name="binario_decimal">Binary -> Decimal</string>
+    <string name="binario_hexadecimal">Binary -> Hexadecimal</string>
+    <string name="hexadecimal_decimal">Hexadecimal -> Decimal</string>
+    <string name="hexadecimal_binario">Hexadecimal -> Binary</string>
+</resources>

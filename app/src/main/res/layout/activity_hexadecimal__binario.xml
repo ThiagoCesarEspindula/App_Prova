@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hexadecimal_Binario">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        tools:ignore="MissingConstraints"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp">
+
+            <TextView
+                android:id="@+id/textViewTitle5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:fontFamily="cursive"
+                android:text="@string/hexadecimal_binario"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextHex_Bin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle5"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:hint="@string/digite_um_numero"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/BtnConverterHex_Bin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTextHex_Bin"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:onClick="Converter"
+                android:text="@string/converter" />
+
+            <TextView
+                android:id="@+id/resultHex_Bin"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:layout_below="@id/BtnConverterHex_Bin"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="36sp" />
+
+            <ImageButton
+                android:id="@+id/BtnVoltar5"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:background="@mipmap/voltar"
+                android:onClick="Voltar" />
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

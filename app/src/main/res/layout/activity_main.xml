@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="587dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="345dp"
+                android:layout_height="253dp"
+                android:layout_below="@id/btnConfirmar"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+            <TextView
+                android:id="@+id/textViewTitleMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:fontFamily="cursive"
+                android:text="@string/converter_de"
+                android:textSize="30sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitleMain"
+                android:layout_marginTop="20dp">
+
+                <RadioButton
+                    android:id="@+id/rdBtnDecimal_Binario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decimal_para_binario" />
+
+                <RadioButton
+                    android:id="@+id/rdBtnDecimal_Hexadecimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decimal_para_hexadecimal" />
+
+                <RadioButton
+                    android:id="@+id/rdBtnBinario_Decimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/binario_para_decimal" />
+
+                <RadioButton
+                    android:id="@+id/rdBtnBinarioHexadecimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/binario_para_hexadecimal" />
+
+                <RadioButton
+                    android:id="@+id/rdBtnHexadecimal_Decimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/hexadecimal_para_decimal" />
+
+                <RadioButton
+                    android:id="@+id/rdBtnHexadecimal_Binario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/hexadecimal_para_binario" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnConfirmar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/radioGroup"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="26dp"
+                android:onClick="Confirmar"
+                android:text="@string/confirmar" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
